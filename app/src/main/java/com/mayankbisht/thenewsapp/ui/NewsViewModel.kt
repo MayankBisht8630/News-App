@@ -25,7 +25,7 @@ class NewsViewModel(app: Application, val newsRepository: NewsRepository): Andro
     var searchNewsResponse: NewsResponse ?= null
     var newSearchQuery: String ?= null
     var oldSearchQuery: String ?= null
-
+    
     init {
         getHeadlines("us")
     }
