@@ -1,16 +1,16 @@
 package com.mayankbisht.thenewsapp.db
 
-import androidx.room.TypeConverters
+import androidx.room.TypeConverter
 import com.mayankbisht.thenewsapp.models.Source
 
 class Converters {
-    @TypeConverters
+    @TypeConverter
     fun fromSource(source: Source): String{
         return source.name
     }
 
-    @TypeConverters
+    @TypeConverter
     fun toSource(name: String): Source{
-        return  Source(name, name)
+        return Source(name, name)
     }
 }

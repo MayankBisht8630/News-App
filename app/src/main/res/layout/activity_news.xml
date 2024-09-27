@@ -31,7 +31,7 @@
         android:layout_height="80dp"
         app:menu="@menu/bottom_navigation_menu"
         app:itemTextColor="@color/white"
-        android:padding="8dp"
+        android:padding="2dp"
         app:itemIconTint="@color/white"
         android:background="@color/purple"
         app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"

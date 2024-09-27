@@ -4,7 +4,7 @@
         android:title="Headlines"
         android:icon="@drawable/baseline_headline_24"
         />
-    <item android:id="@+id/favouritesFragment"
+    <item android:id="@+id/favouriteFragment"
         android:title="Favourites"
         android:icon="@drawable/baseline_favorite_24"
         />
